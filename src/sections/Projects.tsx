@@ -8,7 +8,7 @@ const projects = [
     title: "NeoChat",
     description: "A highly performant real-time messaging platform with end-to-end encryption. Features presence indicators, typing status, and media sharing within a sleek, dark-themed UI.",
     tech: ["React", "Node.js", "express", "MongoDB" , "qroq"],
-    image: "url('/NeoChat.png')",
+    image: `url(${import.meta.env.BASE_URL}NeoChat.png)`,
     link: "https://azizkateb.github.io/NeoChat/",
     github: "https://github.com/azizkateb/NeoChat"
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "ECommerce",
     description: "Enterprise-grade e-commerce architecture built for scale. Implements advanced caching, intelligent search, and secure payment processing flows. ||||||NB: REQUEST  IS very slow at first due to backend server sleeping on free hosting.",
     tech: ["Angular", "PostgreSQL", "spring-boot", "TypeScript"],
-    image: "url('/Ecommerce.png')",
+    image: `url(${import.meta.env.BASE_URL}Ecommerce.png)`,
     link: "https://azizkateb.github.io/ecommerce-frontend/#/",
     github: "https://github.com/azizkateb/ecommerce-frontend"
   },
@@ -24,7 +24,7 @@ const projects = [
     title: "Islamic Website",
     description: "AI-powered analytics dashboard that ingests raw data streams and generates actionable predictive insights using custom-trained LLMs.",
     tech: ["React", "OpenAI API", "API Integration", "tailwindcss"],
-    image: "url('/IslamicWebsite.png')",
+    image: `url(${import.meta.env.BASE_URL}IslamicWebsite.png)`,
     link: "https://azizkateb.github.io/Qoran/",
     github: "https://github.com/azizkateb/Qoran"
   },
@@ -32,7 +32,7 @@ const projects = [
     title: "Black Clover Website",
     description: "This is an anime website that provides comprehensive information about the Black Clover anime series, including episode guides, character profiles, and news updates. It features a sleek design and user-friendly interface for fans to explore the world of Black Clover.",
     tech: ["React", "tailwindcss", "TypeScript", "Next.js"],
-    image: "url('/BlackClover.png')",
+    image: `url(${import.meta.env.BASE_URL}BlackClover.png)`,
     link: "https://azizkateb.github.io/blackclover/",
     github: "https://github.com/azizkateb/blackclover"
   },
@@ -40,7 +40,7 @@ const projects = [
     title: "Anime Landing Page",
     description: "This is an anime website that provides comprehensive information about the Jujutsu Kaisen anime series, including episode guides, character profiles, and news updates. It features a sleek design and user-friendly interface for fans to explore the world of Black Clover.",
     tech: ["React", "tailwindcss", "TypeScript", "Next.js"],
-    image: "url('/AnimeLanding.png')",
+    image: `url(${import.meta.env.BASE_URL}AnimeLanding.png)`,
     link: "https://azizkateb.github.io/AnimeFrontEndWebsite/",
     github: "https://github.com/azizkateb/AnimeFrontEndWebsite"
   },
@@ -48,7 +48,7 @@ const projects = [
     title: "React Portfolio",
     description: "This is a personal portfolio website built with React and Next.js, showcasing my skills and projects. It features a modern design and smooth animations.",
     tech: ["React", "tailwindcss", "TypeScript", "Next.js"],
-    image: "url('/ReactPortfolio.png')",
+    image: `url(${import.meta.env.BASE_URL}ReactPortfolio.png)`,
     link: "https://azizkateb.github.io/ReactPortfolio/",
     github: "https://github.com/azizkateb/ReactPortfolio"
   },
@@ -56,7 +56,7 @@ const projects = [
     title: "Angular Portfolio",
     description: "This is a personal portfolio website built with Angular and TypeScript, showcasing my skills and projects. It features a modern design and smooth animations.",
     tech: ["Angular", "TypeScript", "tailwindcss"],
-    image: "url('/AngularPortfolio.png')",
+    image: `url(${import.meta.env.BASE_URL}AngularPortfolio.png)`,
     link: "https://azizkatebportfolio.netlify.app",
     github: "https://github.com/azizkateb/portfolio2.0"
   }
