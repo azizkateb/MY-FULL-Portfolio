@@ -59,6 +59,30 @@ const projects = [
     image: `url(${import.meta.env.BASE_URL}AngularPortfolio.png)`,
     link: "https://azizkatebportfolio.netlify.app",
     github: "https://github.com/azizkateb/portfolio2.0"
+  },
+  {
+    title: "Voyara",
+    description: "this a travel agency website built with react and tailwindcss, showcasing my skills and projects. It features a modern design and smooth animations.",
+    tech: ["react", "tailwindcss", "typeScript"],
+    image: `url(${import.meta.env.BASE_URL}Voyara.png)`,
+    link: "https://azizkateb.github.io/Voyara/",
+    github: "https://github.com/azizkateb/Voyara"
+  },
+  {
+    title: "IYED AutoWash",
+    description: "This is a car wash website built with react and tailwindcss, showcasing my skills and projects. It features a modern design and smooth animations.",
+    tech: ["react", "tailwindcss", "typeScript"],
+    image: `url(${import.meta.env.BASE_URL}IYEDAutoWash.png)`,
+    link: "https://677bd54a.iyed-autowash.pages.dev",
+    github: "https://github.com/azizkateb/Iyed-AutoWash"
+  },
+   {
+    title: "Launch Ai",
+    description: "this is an ai powered website that generates landings pages for startups, built with react and tailwindcss, showcasing my skills and projects. It features a modern design and smooth animations.",
+    tech: ["react", "tailwindcss", "typeScript", "express", "nodejs","api integration"],
+    image: `url(${import.meta.env.BASE_URL}LaunchAI.png)`,
+    link: "https://azizkateb.github.io/launch-ai/",
+    github: "https://github.com/azizkateb/launch-ai"
   }
 
   
